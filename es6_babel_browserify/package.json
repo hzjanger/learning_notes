@@ -1,0 +1,12 @@
+{
+  "name": "es6_babel_browserify",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "babel js/src -d js/lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
